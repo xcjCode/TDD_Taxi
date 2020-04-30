@@ -1,3 +1,5 @@
-test('should ', () => {
-  expect(1 + 1).toBe(2);
+import getPrice from '../index';
+
+test('should', () => {
+  expect(getPrice()).toBe(`收费6元\n收费7元\n收费13元\n收费7元\n`);
 });
